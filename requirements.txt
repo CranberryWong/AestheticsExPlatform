@@ -1,0 +1,9 @@
+Markdown==2.6.11
+mongoengine==0.15.0
+numpy==1.14.3
+pymongo==3.6.1
+six==1.11.0
+tornado==5.0.2
+boto3==1.9.14
+awscli==1.16.24
+timeago==1.0.14
