@@ -82,10 +82,10 @@ class WebpageHandler(BaseHandler):
         fixation_path = "images/fixation.png"
         noise_path = "images/noise.png"
         if wid == '999':
-            webpage_path = "images/webpages/ted.com.png"
+            webpage_path = "images/webpages/ted.com.jpg"
             self.render("experiment/aesthetics/webpage.html", fixation_path = fixation_path, webpage_path = webpage_path, noise_path = noise_path, title = 'ted.com', wid = wid)
         wid2, title = WebpageList[int(wid)].split('*')
-        webpage_path = "images/webpages/" + title + ".png"
+        webpage_path = "images/webpages/" + title + ".jpg"
         n = self.get_cookie('n')
         print(n)
         g = n_cookie.match(n)
