@@ -6,8 +6,6 @@ from datetime import datetime
 import csv
 import uuid
 import os
-# import pandas as pd
-from mongoengine import Document, StringField, DateTimeField, EmailField, IntField, EmbeddedDocument, DictField, ListField
 
 class User(object):
     
